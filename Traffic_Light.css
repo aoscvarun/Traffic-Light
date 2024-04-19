@@ -1,0 +1,26 @@
+*
+{
+    background-image: url(images/road.jpg);
+}
+.container
+{
+    display: flex;
+
+}
+.person
+{
+    flex: 2;
+}
+.cross
+{
+    flex: 6;
+}
+.light
+{
+    flex: 2;
+}
+.person,.cross,.light
+{
+    border: 2px solid black;
+    height: 500px;
+}
